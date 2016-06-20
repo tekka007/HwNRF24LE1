@@ -1,0 +1,18 @@
+menu.cpu=Processor
+
+######################################
+## MySensors NRF24LE1 beta
+
+MysensorsNRF24LE1.name=Sensebender Micro
+
+MysensorsNRF24LE1.upload.tool=arduino:avrdude
+MysensorsNRF24LE1.upload.protocol=arduino
+MysensorsNRF24LE1.upload.maximum_size=30720
+MysensorsNRF24LE1.upload.maximum_data_size=2048
+MysensorsNRF24LE1.upload.speed=57600
+
+MysensorsNRF24LE1.build.board=AVR_MICRO8
+MysensorsNRF24LE1.build.core=arduino:arduino
+MysensorsNRF24LE1.build.variant=micro
+MysensorsNRF24LE1.build.mcu=atmega328p
+MysensorsNRF24LE1.build.f_cpu=8000000L
